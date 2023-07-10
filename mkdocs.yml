@@ -1,0 +1,81 @@
+site_name:  Radio-frecuency, Micro-waves and Optics Group
+site_author: Roosevelt J. Ubaldo Chavez
+site_description: >-
+  Página web del Grupo de Investigación en Computación GIC
+
+# repo_name: squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
+
+nav:
+  - Home: index.md
+  - About us: about.md
+  - News & Events: news-and-events.md
+  - Research: research.md
+  - Publications: publications.md
+  - Students: students.md
+  - Alumni: alumni.md
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  logo: assets/grfmo-logo-white.svg
+  favicon: assets/grfmo-logo-white.svg
+  name: material
+  custom_dir: overrides
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: youtube
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/GRFMO
+      name: squidfunk on Twitter
+    - icon: fontawesome/brands/discord 
+      link: https://twitter.com/squidfunk
+      name: squidfunk on Twitter
+  generator: false
+
+
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - es
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - attr_list
+
+copyright: Copyright &copy; 2023 Radio-frecuency, Micro-waves and Optics Groups
