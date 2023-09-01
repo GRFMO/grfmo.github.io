@@ -31,7 +31,7 @@
 ::cards::
 
 - title: Marco Antonio Becerra Pérez
-  content: Bachiller en Ingeniería Mecatrónica (2022)
+  content: Estudiante de Maestría en Matemáticas
   image: ../images/people/marco_becerra.jpg
 
 ::/cards::

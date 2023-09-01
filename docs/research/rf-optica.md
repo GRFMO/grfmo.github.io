@@ -2,7 +2,6 @@
 
 ![Image title](https://www.inictel-uni.edu.pe/wp-content/uploads/2020/05/Contrato-015-2018.jpg){ align=left }
 
-
 ## Resumen:
 
 El proyecto tiene la finalidad de diseñar, fabricar y caracterizar un dispositivo electroóptico integrado denominado modulador fotónico de silicio.
@@ -19,22 +18,20 @@ El sub-proyecto tiene la finalidad de diseñar, fabricar y caracterizar un dispo
 
 ## Datos Generales
 
-- Fecha de inicio: Octubre 2018     
+- Fecha de inicio: Octubre 2018
 - Fecha de cierre: setiembre 2021
 - Investigador Principal: Samuel Huamán
 - Co-Investigadores:
-    - Ruth Rubio
-    - Maria Armas Alvarado
-    - Luz Adanaqué
-    - Daniel Díaz
-    - Aurelio Bazán
+  - Ruth Rubio
+  - Maria Armas Alvarado
+  - Luz Adanaqué
+  - Daniel Díaz
+  - Aurelio Bazán
 - Co-Investigadores de Apoyo:
-    - Mark Clemente
-    - Jinmi Lezama
-
+  - Mark Clemente
+  - Jinmi Lezama
 
 ## Artículos Publicados
-
 
 1. Juan, M., Prosopio-Galarza, R., & Rubio-Noriega, R. E. (2020, September). Silicon Photonics Foundry-oriented Y-junction Optimization. In 2020 IEEE XXVII International Conference on Electronics, Electrical Engineering and Computing (INTERCON) (pp. 1-4). IEEE. [DOI: 10.1109/INTERCON50315.2020.9220205](https://doi.org/10.1109/INTERCON50315.2020.9220205)
 
@@ -43,11 +40,9 @@ El sub-proyecto tiene la finalidad de diseñar, fabricar y caracterizar un dispo
 3. Sanchez-Cespedes, I. A., Prosopio-Galarza, R. R., & Rubio-Noriega, R. E. (2021, March). Optimized passive design space exploration of silicon microring resonators. In Integrated Optics: Devices, Materials, and Technologies XXV (Vol. 11689, p. 116891J). International Society for Optics and Photonics. [DOI: 10.1117/12.2577982](https://doi.org/10.1117/12.2577982)
 
 4. Jara, F., Rubio-Noriega, R. E., Alayo, M. I., & Alvarado, M. A. (2021, March). Space exploration of AlN pedestal waveguides for phase shifting applications. In Physics and Simulation of Optoelectronic Devices XXIX (Vol. 11680, p. 1168010). International Society for Optics and Photonics. [DOI: 10.1117/12.2578363](https://doi.org/10.1016/j.jpdc.2022.01.013)
-    
 5. Gonzalez, J., Palma, M. G., Hattink, M., Rubio-Noriega, R., Orosa, L., Mutlu, O., … & Azevedo, R. (2022). Optically connected memory for disaggregated data centers. Journal of Parallel and Distributed Computing, 163, 300-312. DOI: 10.1016/j.jpdc.2022.01.013
 
-
-## LABORATORIO DE CARACTERIZACIÓN OPTOELECTRÓNICA (LCO)
+## LABORATORIO DE CARACTERIZACIÓN OPTOELECTRÓNICA (Virtual Lab)
 
 El acceso de la comunidad académica a las instalaciones del laboratorio se da en el marco del proyecto financiado por CONCYTEC-PROCIENCIA y el Banco Mundial.
 
@@ -61,7 +56,7 @@ Se deberá llenar el [formulario](https://forms.office.com/pages/responsepage.as
 
 ### Reglas
 
--  El uso de LCO deberá darse en el marco del uso de un proyecto de investigación.
+- El uso de LCO deberá darse en el marco del uso de un proyecto de investigación.
 
 - Después de llenar el formulario, se programará una reunión con los investigadores a cargo del laboratorio para discutir la capacitación y factibilidad de la etapa del proyecto que requiera el uso del equipamiento.
 
