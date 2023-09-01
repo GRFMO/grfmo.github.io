@@ -1,7 +1,6 @@
 site_name:  Radio-frecuency, Micro-waves and Optics Group
 site_author: Roosevelt J. Ubaldo Chavez
-site_description: >-
-  Página web del Grupo de Investigación en Computación GIC
+site_description: Página web del Grupo de Investigación en Computación GIC
 
 # repo_name: squidfunk/mkdocs-material
 # repo_url: https://github.com/squidfunk/mkdocs-material
@@ -10,13 +9,17 @@ nav:
   - Home: index.md
   - About us: about.md
   - News & Events: news-and-events.md
-  - Research: research.md
+  - Research: research
   - Publications: publications.md
-  - Students: students.md
-  - Alumni: alumni.md
+  - People: people
+  - Contact: contact-us.md
 
 extra_css:
+  - stylesheets/neoteroi-mkdocs.css
   - stylesheets/extra.css
+
+extra_javascript:
+  - https://platform.twitter.com/widgets.js
 
 theme:
   logo: assets/grfmo-logo-white.svg
@@ -59,10 +62,7 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/GRFMO
-      name: squidfunk on Twitter
-    - icon: fontawesome/brands/discord 
-      link: https://twitter.com/squidfunk
-      name: squidfunk on Twitter
+      name: GRFMO on GiHub
   generator: false
 
 
@@ -76,6 +76,8 @@ plugins:
 markdown_extensions: 
   - attr_list
   - md_in_html
-  - attr_list
+  - neoteroi.cards
+  - neoteroi.timeline
+
 
 copyright: Copyright &copy; 2023 Radio-frecuency, Micro-waves and Optics Groups
