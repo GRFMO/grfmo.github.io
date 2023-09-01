@@ -1,19 +1,17 @@
-site_name:  Radio-frecuency, Micro-waves and Optics Group
+site_name: Grupo de Radio-frecuencia, Micro-ondas y Óptica
 site_author: Roosevelt J. Ubaldo Chavez
 site_description: Página web del Grupo de Investigación en Computación GIC
 
 # repo_name: squidfunk/mkdocs-material
 # repo_url: https://github.com/squidfunk/mkdocs-material
-
 nav:
-  - Home: index.md
-  - About us: about.md
-  - News & Events: news-and-events.md
-  - Research: research
-  - Publications: publications.md
-  - People: people
-  - Contact: contact-us.md
-
+  - Inicio: index.md
+  - Nosotros: about.md
+  - Investigación: research
+  - Publicaciones: publications.md
+  - Miembros: people
+  - Noticias & Eventos: news-and-events.md
+  - Contacto: contact-us.md
 extra_css:
   - stylesheets/neoteroi-mkdocs.css
   - stylesheets/extra.css
@@ -26,11 +24,12 @@ theme:
   favicon: assets/grfmo-logo-white.svg
   name: material
   custom_dir: overrides
+  language: es
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: youtube
+      primary: custom
       toggle:
         icon: material/weather-night 
         name: Switch to dark mode
@@ -50,6 +49,8 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.footer
+    - navigation.path
+    - navigation.top
 
 extra:
   consent:
@@ -65,13 +66,30 @@ extra:
       name: GRFMO on GiHub
   generator: false
 
-
-
 plugins:
   - search:
       lang: 
         - en
         - es
+  - i18n:
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        # - locale: en
+        #   name: English
+        #   build: true
+        #   site_name:  Radio-frecuency, Micro-waves and Optics Group
+        #   nav:
+        #     - Home: en/index.md
+        #     - About us: en/about.md
+        #     - News & Events: en/news-and-events.md
+        #     - Research: en/research
+        #     - Publications: en/publications.md
+        #     - People: en/people
+        #     - Contact: en/contact-us.md
+
 
 markdown_extensions: 
   - attr_list

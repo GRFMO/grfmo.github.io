@@ -1,7 +1,6 @@
-# Noticias & Eventos
+# News & Events
 
 ## CONCYTEC
-
 <a class="twitter-timeline" href="https://twitter.com/ConcytecPeru?ref_src=twsrc%5Etfw">Tweets by ConcytecPeru</a>
 
 ## INICTEL-UNI

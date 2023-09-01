@@ -1,32 +1,24 @@
-# Miembros
+# People
 
-## Investigadoras Principales
+## Principal Investigators
 
 ::cards::
 
-- title: Ruth Esther Rubio Noriega
-  content: Doctora en Ingeniería Eléctrica en el Área de Telecomunicaciones y Telemática
-  image: https://www.inictel-uni.edu.pe/wp-content/uploads/2020/03/Ruth-Rubio-Noriega.jpg
-- title: María Elisia Armas Alvarado
+- title: María Elisia Armas Alvarado 
   content: Doctora en Ingeniería Eléctrica
   image: https://www.inictel-uni.edu.pe/wp-content/uploads/2020/03/Maria-Elisia-Armas.Alvaradi.jpg
+
+- title: Ruth Esther Rubio Noriega 
+  content: Doctora en Ingeniería Eléctrica en el Área de Telecomunicaciones y Telemática 
+  image: https://www.inictel-uni.edu.pe/wp-content/uploads/2020/03/Ruth-Rubio-Noriega.jpg
+
 - title: Luz Antuanet Adanaqué Infante
-  content: Maestra en Ingeniería Electrónica
+  content: MsC. en Ingeniería Electrónica
   image: ../images/people/antuanet_adanaque.jpg
 
 ::/cards::
 
-## Investigadores Asociados
-
-::cards::
-
-- title: Jorge González Reaño
-  content: Doctor en Ciencias de la Computación
-  image: https://utec.edu.pe/sites/default/files/pictures/picture-941-1602617091.png
-
-::/cards::
-
-## Estudiantes de Posgrado
+## Posgraduate Students
 
 ::cards::
 
@@ -36,7 +28,7 @@
 
 ::/cards::
 
-## Graduados
+## Graduate Students
 
 ::cards::
 
@@ -58,8 +50,7 @@
 
 ::/cards::
 
-## Iniciación Científica
-
+## Scientific Iniciation
 ::cards::
 
 - title: Roger Daniel Villon Mariluz

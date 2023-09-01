@@ -1,26 +1,15 @@
-# About
+## Sobre Nosotros
 
-![Research in GRFMO](../images/research.jpg)
+![Research in GRFMO](../images/research.jpg){ align=right width="300" }
 
-## Our History
+El Área de Investigación de Radiofrecuencia, Microondas y Óptica se dedica a investigar nuevos conceptos, métodos, técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas. El trabajo del grupo está enmarcado dentro de tres grandes áreas: materiales, dispositivos y subsistemas.
 
-::timeline::
+## Objetivos
 
-- content: First implementation.
-  icon: ':material-rocket-launch-outline:'
-  sub_title: 2022-Q1
-  title: Launch
-- content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  icon: ':fontawesome-solid-gem:'
-  sub_title: 2022-Q2
-  title: New features
-- content: Lorem ipsum dolor sit amet.
-  icon: ':material-gauge-empty:'
-  sub_title: 2022-Q3
-  title: More features!
-- content: Lorem ipsum dolor sit amet.
-  icon: ':material-bug:'
-  sub_title: 2022-Q4
-  title: Bugs!
+1. Explorar teórica y numéricamente de la propagación de ondas en sistemas y medios complejos.
 
-::/timeline::
+2. Evaluar el uso de estructuras complejas para el diseño de dispositivos de interconexión óptica.
+
+3. Diseñar métodos para la habilitación de circuitos fotónicos integrados, integración monolítica, crecimiento epitaxial, dispositivos fotónicos híbridos.
+
+4. Investigar nuevos conceptos / modelos / técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas.

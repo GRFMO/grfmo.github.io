@@ -6,9 +6,9 @@ hide:
 ---
 
 <div class="mdx-hero__content">
-  <h1>Bienvenidos a GRFMO </h1>
+  <h1>Welcome to GRFMO </h1>
   <div align="center" style="margin-bottom: 2em;">
-    <img alt="grfmo team" src="./images/home.jpeg"/>
+    <img alt="grfmo team" src="/images/home.jpeg"/>
   </div>
   
   <a
@@ -16,13 +16,13 @@ hide:
     title="{{ page.next_page.title | e }}"
     class="md-button md-button--primary"
   >
-    Sobre Nosotros
+    About us
   </a>
   <a
     href="/research"
     title="Material for MkDocs Insiders"
     class="md-button"
   >
-    Investigación
+    Research
   </a>
 </div>
