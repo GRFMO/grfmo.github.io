@@ -12,7 +12,9 @@ nav:
   - Publicaciones: publications.md
   - Miembros: people
   - Noticias & Eventos: news-and-events.md
+  - Vitual Lab: virtual-lab.md
   - Contacto: contact-us.md
+
   # - Blog:
   #   - blog/index.md 
 
@@ -63,6 +65,7 @@ plugins:
       lang: 
         - en
         - es
+  - macros
   # - blog
   # - i18n:
   #     languages:
@@ -112,6 +115,9 @@ markdown_extensions:
   - md_in_html
   - neoteroi.cards
   - neoteroi.timeline
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 
 extra_css:

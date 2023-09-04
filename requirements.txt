@@ -1,2 +1,3 @@
 neoteroi-mkdocs
 mkdocs-static-i18n
+mkdocs-macros-plugin

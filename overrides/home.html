@@ -28,7 +28,7 @@
     background-image: url("assets/lab-bg.jpg");
 
     /* Set a specific height */
-    min-height: 900px;
+    min-height: 90vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -40,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   .caption {
     color: #000;
@@ -64,7 +65,7 @@
 
 <div class="parallax custom-pos">
   <div class="md-grid md-typeset">
-    <h1
+    <h1 class="animate__animated animate__backInDown"
       style="
         text-align: center;
         background-color: #2b2b2b4f;
@@ -78,21 +79,23 @@
       <a
         href="{{ page.next_page.url | url }}"
         title="{{ page.next_page.title | e }}"
-        class="md-button md-button--primary"
+        class="md-button md-button--primary animate__animated animate__backInRight"
       >
         Nosotros
       </a>
       <a
         href="{{ 'research/' | url }}"
+        style="background-color: #0b0a0a99;"
         title="Material for MkDocs Insiders"
-        class="md-button"
+        class="md-button animate__animated animate__backInRight"
       >
         Investigación
       </a>
       <a
         href="{{ 'publications/' | url }}"
+        style="background-color: #0b0a0a99;"
         title="Material for MkDocs Insiders"
-        class="md-button"
+        class="md-button animate__animated animate__backInRight"
       >
         Publicaciones
       </a>
