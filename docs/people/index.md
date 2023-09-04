@@ -1,3 +1,9 @@
+---
+hide:
+  - path
+  - navigation
+---
+
 # Miembros
 
 ## Investigadoras Principales

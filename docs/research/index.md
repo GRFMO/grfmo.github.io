@@ -1,3 +1,10 @@
+---
+hide:
+  - path
+  - navigation
+  - toc
+---
+
 # Investigación
 
 <figure markdown>

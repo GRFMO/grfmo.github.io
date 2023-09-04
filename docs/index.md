@@ -1,28 +1,12 @@
 ---
+template: home.html
+title: GRFMO
 hide:
+  - path
   - navigation
   - toc
-  - footer
 ---
 
-<div class="mdx-hero__content">
-  <h1>Bienvenidos a GRFMO </h1>
-  <div align="center" style="margin-bottom: 2em;">
-    <img alt="grfmo team" src="./images/home.jpeg"/>
-  </div>
-  
-  <a
-    href="/about"
-    title="{{ page.next_page.title | e }}"
-    class="md-button md-button--primary"
-  >
-    Sobre Nosotros
-  </a>
-  <a
-    href="/research"
-    title="Material for MkDocs Insiders"
-    class="md-button"
-  >
-    Investigación
-  </a>
-</div>
+# Bienvenidos a GRFMO
+
+El Área de Investigación de Radiofrecuencia, Microondas y Óptica se dedica a investigar nuevos conceptos, métodos, técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas. El trabajo del grupo está enmarcado dentro de tres grandes áreas: materiales, dispositivos y subsistemas.

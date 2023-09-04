@@ -1,3 +1,9 @@
+---
+hide:
+  - path
+  - navigation
+---
+
 # Publicaciones
 
 ## 2023

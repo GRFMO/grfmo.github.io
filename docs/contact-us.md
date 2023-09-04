@@ -1,3 +1,9 @@
+---
+hide:
+  - path
+  - navigation
+---
+
 # Contacto
 
 ## Investigadora Principal

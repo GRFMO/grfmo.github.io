@@ -1,37 +1,43 @@
 site_name: Grupo de Radio-frecuencia, Micro-ondas y Óptica
-site_author: Roosevelt J. Ubaldo Chavez
-site_description: Página web del Grupo de Investigación en Computación GIC
+site_description: >
+ El Área de Investigación de Radiofrecuencia, Microondas y Óptica se dedica a investigar nuevos conceptos, métodos, técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas. El trabajo del grupo está enmarcado dentro de tres grandes áreas: materiales, dispositivos y subsistemas.
+
 
 # repo_name: squidfunk/mkdocs-material
 # repo_url: https://github.com/squidfunk/mkdocs-material
 nav:
-  - Inicio: index.md
+  - index.md
   - Nosotros: about.md
   - Investigación: research
   - Publicaciones: publications.md
   - Miembros: people
   - Noticias & Eventos: news-and-events.md
   - Contacto: contact-us.md
-extra_css:
-  - stylesheets/neoteroi-mkdocs.css
-  - stylesheets/extra.css
-
-extra_javascript:
-  - https://platform.twitter.com/widgets.js
+  # - Blog:
+  #   - blog/index.md 
 
 theme:
+  name: material
   logo: assets/grfmo-logo-white.svg
   favicon: assets/grfmo-logo-white.svg
-  name: material
   custom_dir: overrides
   language: es
   palette: 
+    
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: grfmo 
+      accent: blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
+      scheme: grfmo
+      accent: blue
       toggle:
-        icon: material/weather-night 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -39,44 +45,31 @@ theme:
       scheme: slate
       primary: blue grey
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to light mode
   features:
-    - header.autohide
+    - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.footer
     - navigation.path
+    - navigation.indexes
+    - toc.follow
     - navigation.top
-
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-  social:
-    - icon: fontawesome/brands/github 
-      link: https://github.com/GRFMO
-      name: GRFMO on GiHub
-  generator: false
+    - announce.dismiss
+    - navigation.footer
 
 plugins:
   - search:
       lang: 
         - en
         - es
-  - i18n:
-      languages:
-        - locale: es
-          default: true
-          name: Español
-          build: true
+  # - blog
+  # - i18n:
+  #     languages:
+  #       - locale: es
+  #         default: true
+  #         name: Español
+          # build: true
         # - locale: en
         #   name: English
         #   build: true
@@ -90,12 +83,39 @@ plugins:
         #     - People: en/people
         #     - Contact: en/contact-us.md
 
+extra:
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+  # alternate:
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Español
+  #     link: /
+  #     lang: es
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/GRFMO
+      name: GRFMO on GiHub
+  # disable made with material
+  generator: false
 
 markdown_extensions: 
+  - admonition
+  - footnotes
   - attr_list
   - md_in_html
   - neoteroi.cards
   - neoteroi.timeline
 
+
+extra_css:
+  - stylesheets/neoteroi-mkdocs.css
+  - stylesheets/extra.css
 
 copyright: Copyright &copy; 2023 Radio-frecuency, Micro-waves and Optics Groups

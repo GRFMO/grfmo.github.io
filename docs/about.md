@@ -1,3 +1,10 @@
+---
+hide:
+  - path
+  - navigation
+  - toc
+---
+
 ## Sobre Nosotros
 
 ![Research in GRFMO](../images/research.jpg){ align=right width="300" }

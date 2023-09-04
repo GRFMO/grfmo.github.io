@@ -20,83 +20,84 @@
 {% extends "main.html" %}
 
 <!-- Render hero under tabs -->
-{% block tabs %}
-  {{ super() }}
+{% block tabs %} {{ super() }}
 
-  <!-- Additional styles for landing page -->
-  <style>
+<style>
+  .parallax {
+    /* The image used */
+    background-image: url("assets/lab-bg.jpg");
 
-    /* Application header should be static for the landing page */
-    .md-header {
-      position: initial;
-    }
+    /* Set a specific height */
+    min-height: 900px;
 
-    /* Remove spacing, as we cannot hide it completely */
-    .md-main__inner {
-      margin: 0;
-    }
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .custom-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caption {
+    color: #000;
+  }
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .w3-card-4 {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+      0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
-    /* Hide main content for now */
-    .md-content {
-      display: none;
-    }
+  .w3-container,
+  .w3-panel {
+    padding: 1em 16px;
+  }
+</style>
 
-    /* Hide table of contents */
-    @media screen and (min-width: 60em) {
-      .md-sidebar--secondary {
-        display: none;
-      }
-    }
-
-    /* Hide navigation */
-    @media screen and (min-width: 76.25em) {
-      .md-sidebar--primary {
-        display: none;
-      }
-    }
-  </style>
-
-  <!-- Hero for landing page -->
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-
-        <!-- Hero image -->
-        <div class="mdx-hero__image">
-          <img
-            src="assets/images/bg-code.jpg"
-            alt=""
-            width="100%"
-            draggable="false"
-          >
-        </div>
-
-        <!-- Hero content -->
-        <div class="mdx-hero__content">
-          <h1>Technical documentation that just works</h1>
-          <p>{{ config.site_description }}. Set up in 5 minutes.</p>
-          <a
-            href="{{ page.next_page.url | url }}"
-            title="{{ page.next_page.title | e }}"
-            class="md-button md-button--primary"
-          >
-            Quick start
-          </a>
-          <a
-            href="{{ 'insiders/' | url }}"
-            title="Material for MkDocs Insiders"
-            class="md-button"
-          >
-            Get Insiders
-          </a>
-        </div>
-      </div>
+<div class="parallax custom-pos">
+  <div class="md-grid md-typeset">
+    <h1
+      style="
+        text-align: center;
+        background-color: #2b2b2b4f;
+        color: white;
+        font-size: xxx-large;
+      "
+    >
+      {{ config.site_name }}
+    </h1>
+    <div class="container custom-pos" style="gap: 10px">
+      <a
+        href="{{ page.next_page.url | url }}"
+        title="{{ page.next_page.title | e }}"
+        class="md-button md-button--primary"
+      >
+        Nosotros
+      </a>
+      <a
+        href="{{ 'research/' | url }}"
+        title="Material for MkDocs Insiders"
+        class="md-button"
+      >
+        Investigación
+      </a>
+      <a
+        href="{{ 'publications/' | url }}"
+        title="Material for MkDocs Insiders"
+        class="md-button"
+      >
+        Publicaciones
+      </a>
     </div>
-  </section>
+  </div>
+</div>
+
 {% endblock %}
-
-<!-- Content -->
-{% block content %}{% endblock %}
-
-<!-- Application footer -->
-{% block footer %}{% endblock %}

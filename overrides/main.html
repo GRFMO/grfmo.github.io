@@ -1,6 +1,26 @@
-{% extends "base.html" %} {% block announce %}
+{% extends "base.html" %}
+
+<!-- Custom front matter -->
+{% block extrahead %}
+
+<!-- Extra style sheets (can't be set in mkdocs.yml due to content hash) -->
+<link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}" />
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
 <a href="/contact-us" target="_blank" rel="noopener noreferrer">
-  Bienvenidos a <span class="twemoji icon sh"> </span>
-  <strong>GRFMO</strong>
+  Bienvenidos a <strong>GRFMO</strong>
 </a>
+{% endblock %}
+
+<!-- Theme-related JavaScript -->
+{% block scripts %} {{ super() }}
+
+<!-- Extra JavaScript (can't be set in mkdocs.yml due to content hash) -->
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8"
+></script>
 {% endblock %}
