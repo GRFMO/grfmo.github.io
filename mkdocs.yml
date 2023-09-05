@@ -1,7 +1,7 @@
 site_name: Grupo de Radio-frecuencia, Micro-ondas y Óptica
 site_description: >
  El Área de Investigación de Radiofrecuencia, Microondas y Óptica se dedica a investigar nuevos conceptos, métodos, técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas. El trabajo del grupo está enmarcado dentro de tres grandes áreas: materiales, dispositivos y subsistemas.
-
+header_image_src: /assets/lab-bg.jpg
 
 # repo_name: squidfunk/mkdocs-material
 # repo_url: https://github.com/squidfunk/mkdocs-material
@@ -9,7 +9,10 @@ nav:
   - index.md
   - Nosotros: about.md
   - Investigación: research
-  - Publicaciones: publications.md
+  - Publicaciones: 
+    - publications/index.md
+    - Conferencias: publications/conferences.md
+    - Journals: publications/journals.md
   - Miembros: people
   - Noticias & Eventos: news-and-events.md
   - Vitual Lab: virtual-lab.md
@@ -53,7 +56,6 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.path
     - navigation.indexes
     - toc.follow
     - navigation.top

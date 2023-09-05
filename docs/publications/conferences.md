@@ -1,0 +1,1 @@
+{% include 'publications/data/conference.md' %}

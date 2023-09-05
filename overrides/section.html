@@ -1,0 +1,42 @@
+{% extends "main.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %} {{ super() }}
+
+<style>
+  .parallax {
+    /* The image used */
+    background-image: url({% if page.meta.title_image_src %}{{ page.meta.title_image_src }}{% else %}{{ config.header_image_src }}{% endif %});
+
+    /* Set a specific height */
+    min-height: 30vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .parallax h1 {
+    text-align: center;
+    background-color: #2b2b2b4f;
+    color: white;
+    font-size: 3em;
+  }
+
+</style>
+
+<div class="parallax custom-pos">
+  <div class="md-grid md-typeset">
+    <h1 class="animate__animated animate__backInDown">
+      {{ page.title }}
+    </h1>
+  </div>
+</div>
+
+{% endblock %}

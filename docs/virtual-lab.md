@@ -1,4 +1,5 @@
 ---
+template: section.html
 hide:
   - path
   - navigation
