@@ -1,5 +1,6 @@
 ---
 template: section.html
+title: Virtual Lab
 hide:
   - path
   - navigation
