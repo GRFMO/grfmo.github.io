@@ -11,7 +11,7 @@ hide:
 
 **Ruth Esther Rubio Noriega**
 
-- Correo electrónico: [rrubio@inictel-uni.edu.pe](rrubio@inictel-uni.edu.pe)
+- Correo electrónico: [rrubio@inictel-uni.edu.pe](mailto:rrubio@inictel-uni.edu.pe)
 
 - Oficina: Laboratorio LCO . [Av. San Luis 1771 - San Borja
   Lima 41 - Perú](https://goo.gl/maps/BC2atuncY1Rd9gpo8)

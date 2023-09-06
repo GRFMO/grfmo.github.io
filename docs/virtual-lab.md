@@ -4,20 +4,20 @@ hide:
   - path
   - navigation
 ---
+
 # Virtual Lab
 
 ![Image title](https://www.inictel-uni.edu.pe/wp-content/uploads/2020/05/Contrato-015-2018.jpg)
-
 
 El acceso de la comunidad académica a las instalaciones del laboratorio se da en el marco del proyecto financiado por CONCYTEC-PROCIENCIA y el Banco Mundial.
 
 ## Agenda
 
-En la [agenda](https://lco.skedda.com/register?i=78007&k=jb6_pGseQOAF4XTBJ9R1NwyvajEMlRNe) se podrá visualizar los días y las horas en donde el laboratorio ha sido reservado para su uso.
+En la [**agenda** :material-open-in-new:](https://lco.skedda.com/register?i=78007&k=jb6_pGseQOAF4XTBJ9R1NwyvajEMlRNe) se podrá visualizar los días y las horas en donde el laboratorio ha sido reservado para su uso.
 
 ## Formulario
 
-Se deberá llenar el [formulario](https://forms.office.com/pages/responsepage.aspx?id=PWFThg0IfEiR7GT8R2zx2FKmT1EsDHRJtC3yCRVl_tZUQ0xWVFdFNTNUUkVHNkFXNThJRU4yMDBVSS4u) mencionando las actividades que se plantean realizar con el equipo y proponer un horario tentativo. Los encargados del laboratorio verificarán la disponibilidad y responderá a su solicitud.
+Se deberá llenar el [**formulario** :material-open-in-new:](https://forms.office.com/pages/responsepage.aspx?id=PWFThg0IfEiR7GT8R2zx2FKmT1EsDHRJtC3yCRVl_tZUQ0xWVFdFNTNUUkVHNkFXNThJRU4yMDBVSS4u) mencionando las actividades que se plantean realizar con el equipo y proponer un horario tentativo. Los encargados del laboratorio verificarán la disponibilidad y responderá a su solicitud.
 
 ## Reglas
 
@@ -29,7 +29,7 @@ Se deberá llenar el [formulario](https://forms.office.com/pages/responsepage.as
 
 ## Software de manejo de equipo y variables del laboratorio en el LCO
 
-Puede descargar el software en [este enlace](https://drive.google.com/drive/folders/1yVbw-uR91ltVdGuyDkNbtuxtkKjKf7CT?usp=sharing).
+Puede descargar el software en [**este enlace** :material-open-in-new:](https://drive.google.com/drive/folders/1yVbw-uR91ltVdGuyDkNbtuxtkKjKf7CT?usp=sharing).
 
 Indicaciones de instalación:
 

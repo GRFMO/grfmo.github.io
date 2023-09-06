@@ -1,5 +1,6 @@
 ---
 template: section.html
+title_image_src: /assets/lab-bg-7.jpg
 hide:
   - path
   - navigation
@@ -8,7 +9,7 @@ hide:
 
 ## Sobre Nosotros
 
-![Research in GRFMO](../images/research.jpg){ align=right width="300" }
+![Research in GRFMO](../images/research.jpg){ align=right }
 
 El Área de Investigación de Radiofrecuencia, Microondas y Óptica se dedica a investigar nuevos conceptos, métodos, técnicas para el diseño, fabricación y caracterización de la interacción entre la onda electromagnética y materiales para diferentes rangos de frecuencia en aplicaciones críticas. El trabajo del grupo está enmarcado dentro de tres grandes áreas: materiales, dispositivos y subsistemas.
 

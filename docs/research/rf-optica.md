@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Desarrollo de un dispositivo optoelectrónico de bajo costo y banda ancha sintonizando velocidad de grupo en interface RF – Óptica
 
 ![Image title](https://www.inictel-uni.edu.pe/wp-content/uploads/2020/05/Contrato-015-2018.jpg){ align=left }
