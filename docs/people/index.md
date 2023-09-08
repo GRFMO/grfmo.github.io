@@ -6,10 +6,13 @@ hide:
   - navigation
 coordinators:
   - name: Roxana María Morán Morales
-    degree: Licenciada en Ingeniería Electrónica
+    degree: Ingeniera Electrónica
     email: rmoran@inictel-uni.edu.pe
     image: /images/people/roxana_moran.jpeg
     url: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=272
+administrator:
+  - name: Yanet Begazo Buleje
+    degree: Licenciada en Administración
 principals:
   - name: Ruth Esther Rubio Noriega
     degree: Doctora en Ingeniería Eléctrica en el Área de Telecomunicaciones y Telemática
@@ -48,6 +51,16 @@ postgraduate:
     studies: Estudiante de Maestría en Telecomunicaciones por la Universidad Nacional de Ingeniería
     email: wilfredo.acevedo.e@uni.pe
     image: /images/people/pedro_acevedo.jpg
+  - name: Giancarlo Miranda Castro
+    degree: Ingeniero Electrónico
+    studies: Estudiante de Maestría en Ingenieria Electrónica con mención en Telecomunicaciones por la Universidad Nacional de Ingeniería
+    email: giancarlo.miranda.c@uni.pe
+    image: /images/people/giancarlo_miranda.jpeg
+  - name: Henry Edison Ventura Grández
+    degree: Ingeniero Electrónico (2016)
+    studies: Estudiante de Maestría en Telecomunicaciones por la Universidad Nacional de Ingeniería
+    email: henry.ventura.g@uni.pe
+    image: /images/people/henry_ventura.jpeg
 graduate:
   - name: Licely Tatiana Javier Astete
     degree: Bachiller en Ingeniería Electrónica (2021)
@@ -86,6 +99,21 @@ initiation:
 - title: {{user.name}}
   content: '{{user.degree}}</p><p>
   <a href="mailto:{{user.email}}" class="mailto">:fontawesome-solid-envelope: {{user.email}}</a>
+  '
+  image: {% if user.image %}{{user.image}}{% else %}https://dummyimage.com/600x400/eee/aaa{% endif %}
+  {% if user.url %}url: {{user.url}}{% endif %}
+  {% endfor %}
+
+::/cards::
+
+## Administradora
+
+::cards:: image-bg
+{% for user in administrator %}
+
+- title: {{user.name}}
+  content: '{{user.degree}}{% if user.email %}</p><p>
+  <a href="mailto:{{user.email}}" class="mailto">:fontawesome-solid-envelope: {{user.email}}</a>{% endif %}
   '
   image: {% if user.image %}{{user.image}}{% else %}https://dummyimage.com/600x400/eee/aaa{% endif %}
   {% if user.url %}url: {{user.url}}{% endif %}
