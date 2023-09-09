@@ -6,24 +6,24 @@ site_description: >
 # repo_url: https://github.com/squidfunk/mkdocs-material
 nav:
   - index.md
-  - Nosotros: about.md
-  - Investigación: research
+  - Nosotros: about/index.md
+  - Investigación: research/index.md
   - Publicaciones: 
     - publications/index.md
     - Conferencias: publications/conferences.md
     - Journals: publications/journals.md
-  - Miembros: people
-  - Noticias & Eventos: news-and-events.md
+  - Miembros: people/index.md
+  - Noticias & Eventos: news-and-events/index.md
   - Virtual Lab: virtual-lab.md
-  - Contacto: contact-us.md
+  - Contacto: contact-us/index.md
 
   # - Blog:
   #   - blog/index.md 
 
 theme:
   name: material
-  logo: assets/grfmo-logo-white.svg
-  favicon: assets/grfmo-logo-white.svg
+  logo: assets/logos/grfmo-logo-white.svg
+  favicon: assets/logos/grfmo-logo-white.svg
   custom_dir: overrides
   language: es
   palette: 
@@ -68,12 +68,13 @@ plugins:
         - es
   - macros
   # - blog
-  # - i18n:
-  #     languages:
-  #       - locale: es
-  #         default: true
-  #         name: Español
-          # build: true
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
         # - locale: en
         #   name: English
         #   build: true
@@ -107,8 +108,8 @@ extra:
       link: https://github.com/GRFMO
       name: GRFMO on GiHub
   # disable made with material
-  generator: false
-  header_image_src: /assets/lab-bg-4.jpg
+  generator: true
+  header_image_src: /assets/home-bg.webp
 
 markdown_extensions: 
   - admonition
@@ -123,7 +124,7 @@ markdown_extensions:
 
 
 extra_css:
-  - stylesheets/neoteroi-mkdocs.css
-  - stylesheets/extra.css
+  - assets/stylesheets/neoteroi-mkdocs.css
+  - assets/stylesheets/extra.css
 
 copyright: Copyright &copy; 2023 Radio-frecuency, Micro-waves and Optics Groups
