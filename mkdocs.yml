@@ -13,6 +13,7 @@ nav:
     - Conferencias: publications/conferences.md
     - Journals: publications/journals.md
   - Miembros: people/index.md
+  - Alumni: alumni/index.md
   - Noticias & Eventos: news-and-events/index.md
   - Virtual Lab: virtual-lab.md
   - Contacto: contact-us/index.md
@@ -118,6 +119,7 @@ markdown_extensions:
   - md_in_html
   - neoteroi.cards
   - neoteroi.timeline
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
