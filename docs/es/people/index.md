@@ -10,9 +10,6 @@ coordinators:
     email: rmoran@inictel-uni.edu.pe
     image: /images/people/roxana_moran.webp
     url: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=272
-administrator:
-  - name: Yanet Begazo Buleje
-    degree: Licenciada en Administración
 principals:
   - name: Ruth Esther Rubio Noriega
     degree: Doctora en Ingeniería Eléctrica en el Área de Telecomunicaciones y Telemática
@@ -35,6 +32,12 @@ associate:
     email: jgonzalez@utec.edu.pe
     image: /images/people/jorge_gonzalez.webp
     url: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=0177054
+  - name: Mark Clemente Arenas
+    degree: Doctor en Telecomunicaciones y Electrónica
+    email: mclemente@ieee.org
+    image: /images/people/mark_clemente.jpeg
+    url: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15313
+
 postgraduate:
   - name: Marco Antonio Becerra Pérez
     degree: Bachiller en Ingeniería Mecatrónica (2022)
@@ -87,6 +90,22 @@ initiation:
     degree: Estudiante de pregrado en Ingenieria Electrónica( 2023)
     email: rvillonm@uni.pe
     image: /images/people/roger_villon.webp
+alumni:
+  - name: Diego Peñaloza 
+    before: Pregrado FIEE-UNI
+    now: estudiante doctorado PennState/Nokia Bell Labs
+  - name: Carlos Williams
+    before: Pregrado FC-UNI
+    now: estudiante maestria École Polytechnique/STMicroelectronics France
+  - name: Roy Prosopio
+    before: Pregrado FC-UNI
+    now: estudiante de doctorado París-Saclay
+  - name: Freddy Jara Poma
+    before: Pregrado FIEE-UNMSM 
+    now: estudiante de maestria UNICAMP 
+  - name: Anyela Aquino
+    before: Pregrado FIEE-UNI
+    now: estudiante maestria París-Saclay
 ---
 
 # Miembros
@@ -106,6 +125,7 @@ initiation:
 
 ::/cards::
 
+{% if administrator %}
 ## Administradora
 
 ::cards:: image-bg
@@ -120,6 +140,7 @@ initiation:
   {% endfor %}
 
 ::/cards::
+{% endif %}
 
 ## Investigadoras Principales
 
@@ -191,3 +212,13 @@ initiation:
   {% if user.url %}url: {{user.url}}{% endif %}
   {% endfor %}
   ::/cards::
+
+## Alumni
+
+| Miembro      | Posición durante GRFMO | Posición Actual |
+| :---: | :---: |  :--- |
+| Diego Peñaloza | Pregrado FIEE-UNI | :flag_us: estudiante doctorado PennState/Nokia Bell Labs |
+| Carlos Williams | Pregrado FC-UNI | :flag_fr: estudiante maestria École Polytechnique/STMicroelectronics France  |
+| Roy Prosopio | Pregrado FC-UNI | :flag_fr: estudiante de doctorado París-Saclay  |
+| Freddy Jara Poma | Pregrado FIEE-UNMSM | :flag_br: estudiante de maestria UNICAMP  |
+| Anyela Aquino | Pregrado FIEE-UNI | :flag_fr: estudiante maestria París-Saclay  |
