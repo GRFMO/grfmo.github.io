@@ -1,6 +1,6 @@
 ---
 template: section.html
-title_image_src: /images/home.webp
+title_image_src: /assets/headers/lab-bg-7.webp
 hide:
   - path
   - navigation

@@ -35,7 +35,7 @@ associate:
   - name: Mark Clemente Arenas
     degree: Doctor en Telecomunicaciones y Electrónica
     email: mclemente@ieee.org
-    image: /images/people/mark_clemente.jpeg
+    image: /images/people/mark_clemente.webp
     url: https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=15313
 
 postgraduate:

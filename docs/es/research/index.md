@@ -8,7 +8,7 @@ hide:
 projects:
   - name: Desarrollo de un dispositivo optoelectrónico de bajo costo y banda ancha sintonizando velocidad de grupo en interface RF – Óptica
     description: "El proyecto tiene la finalidad de diseñar, fabricar y caracterizar un dispositivo electroóptico integrado denominado modulador fotónico de silicio."
-    image: https://www.inictel-uni.edu.pe/wp-content/uploads/2020/05/Contrato-015-2018.jpg
+    image: /images/research/virtual_lab.webp
     url: /research/rf-optica/
   - name: Modulador Electro Óptico
     description: "Desarrollo de un dispositivo opto-electrónico de bajo costo y banda ancha sintonizando velocidad de grupo en interface RF – Óptica"

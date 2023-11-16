@@ -8,7 +8,7 @@ hide:
 
 # Virtual Lab
 
-![Image title](https://www.inictel-uni.edu.pe/wp-content/uploads/2020/05/Contrato-015-2018.jpg)
+![Image title](/images/research/virtual_lab.webp)
 
 El acceso de la comunidad académica a las instalaciones del laboratorio se da en el marco del proyecto financiado por CONCYTEC-PROCIENCIA y el Banco Mundial.
 
