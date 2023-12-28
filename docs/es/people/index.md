@@ -16,7 +16,7 @@ principals:
     email: rrubio@inictel-uni.edu.pe
     image: /images/people/ruth_rubio.webp
     url: https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=117349
-  - name: María Elisia Armas Alvarado
+  - name: Maria Elisia Armas Alvarado
     degree: Doctora en Ingeniería Eléctrica
     email: marmas@inictel-uni.edu.pe
     image: /images/people/maria_armas.webp
