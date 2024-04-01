@@ -1,0 +1,9 @@
+[data-md-color-scheme="grfmo"] {
+  --md-primary-fg-color: #4051b5;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #303fa1;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 210;
+}
