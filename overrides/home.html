@@ -1,8 +1,7 @@
 <!-- Custom HTML site displayed as the Home chapter -->
 
 {% extends "main.html" %}
-{% block tabs %}
-{{ super() }}
+{% block tabs %} {{ super() }}
 <style>
 
     .md-main {
@@ -76,6 +75,11 @@
 
     .top-hr {
         margin-top: 42px;
+        border-bottom: 1px solid #ccc !important;
+    }
+
+    .align-center {
+        text-align: center;
     }
 
     .feature-item {
@@ -98,6 +102,18 @@
         margin-bottom: 10px;
         font-family: inherit;
     }
+    .md-content h2 {
+        color: #333;
+        font-weight: 300;
+        font-size: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+    }
 
     .feature-item p {
         font-size: 16px;
@@ -108,6 +124,38 @@
         margin: 0 0 10px;
         display: block;
     }
+
+    .div-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        box-sizing: border-box;
+        padding: 0 15px;
+        word-break: break-word
+    }
+
+    .div-item h2 {
+        color: #333;
+        font-weight: 300;
+        font-size: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+    }
+
+    .div-item p {
+        font-size: 16px;
+        line-height: 1.8em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        color: #111;
+        margin: 0 0 10px;
+        display: block;
+    }
+
 
     @media screen and (max-width:30em) {
         .tx-hero h1 {
@@ -248,8 +296,31 @@
     </div>
 </section>
 
-<!-- Main site box descriptions -->
+
+
 <div class="top-hr">
+    <div class="div-item" style="width: 30rem;">
+        <h2>
+            Publicaciones Recientes
+        </h2>
+ 
+    </div>
+    <div class="div-item" style="width: 70rem;">
+
+        {% for pub in page.meta.publications %}
+            <div class="feature-item">
+                <h2>{{pub.name}}</h2>
+                <p>{{pub.conference}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div> 
+
+<!-- <div class="md-content align-center">
+    <h2 >Code blocks</h2>
+</div> -->
+
+<!-- <div class="top-hr">
     <div class="feature-item">
         <h2>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -269,7 +340,8 @@
         </h2>
         <p>Use UP42 together with your preferred Python libraries. </p>
     </div>
-</div>
+</div> -->
+
 
 {% endblock %}
 {% block content %}{% endblock %}
